@@ -8,7 +8,6 @@
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
-  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
 
   <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -21,7 +20,6 @@
   <project path="frameworks/base" name="ferhung-mtk/android_frameworks_base" />
   <project path="frameworks/native" name="ferhung-mtk/android_frameworks_native" groups="pdk" />
   <project path="hardware/libhardware" name="ferhung-mtk/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="ferhung-mtk/android_hardware_libhardware_legacy" groups="pdk" />
 
   <!-- vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8: -->
 </manifest>
