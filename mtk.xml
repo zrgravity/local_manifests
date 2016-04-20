@@ -8,17 +8,21 @@
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
-
+  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_system_bt" />
+  
   <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <project path="system/bt" name="ferhung-mtk/android_system_bt" groups="pdk" />
   <project path="system/core" name="ferhung-mtk/android_system_core" groups="pdk" />
   <project path="system/netd" name="ferhung-mtk/android_system_netd" groups="pdk" />
   <project path="external/sepolicy" name="ferhung-mtk/android_external_sepolicy" groups="pdk" />
   <project path="frameworks/av" name="ferhung-mtk/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="ferhung-mtk/android_frameworks_base" />
   <project path="frameworks/native" name="ferhung-mtk/android_frameworks_native" groups="pdk" />
+    <project path="frameworks/opt/telephony" name="ferhung-mtk/android_frameworks_opt_telephony" groups="pdk" />
   <project path="hardware/libhardware" name="ferhung-mtk/android_hardware_libhardware" groups="pdk" />
 
   <!-- vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8: -->
