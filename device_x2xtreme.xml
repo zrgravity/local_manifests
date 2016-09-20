@@ -4,7 +4,5 @@
   <project name="AllviewDevelopment/android_device_allview_x2xtreme" path="device/allview/x2xtreme" revision="cm-13.0" />
   <project name="AllviewDevelopment/android_vendor_allview_x2xtreme" path="vendor/allview/x2xtreme" revision="cm-13.0" />
 
-  <remove-project name="platform/frameworks/testing" />
-
   <!-- vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8: -->
 </manifest>
